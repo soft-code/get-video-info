@@ -1,0 +1,8 @@
+{
+    "name": "youtube/get-video-info",
+    "autoload": {
+        "psr-4": {
+            "Youtube\\GetVideoInfo\\": "/src"
+        }
+    }
+}
