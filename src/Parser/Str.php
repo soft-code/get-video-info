@@ -6,7 +6,7 @@ class Str
 {
     public function __invoke(string $text) : array
     {
-        parse_str(urldecode($this->text), $output);
+        parse_str(urldecode($text), $output);
         return $output;
     }
 }
